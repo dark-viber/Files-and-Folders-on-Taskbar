@@ -3,16 +3,16 @@
 </div>
 
 # Files & Folders on Taskbar
-[![Release](https://img.shields.io/github/v/release/Valer100/Files-and-Folders-on-Taskbar?label=stable)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/releases/latest)
-[![Pre-release](https://img.shields.io/github/v/release/Valer100/Files-and-Folders-on-Taskbar?include_prereleases&label=pre-release)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/releases)
+[![Release](https://img.shields.io/github/v/release/d4rk-guy/Files-and-Folders-on-Taskbar?label=stable)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/releases/latest)
+[![Pre-release](https://img.shields.io/github/v/release/d4rk-guy/Files-and-Folders-on-Taskbar?include_prereleases&label=pre-release)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/releases)
 [![Windows](https://img.shields.io/badge/windows-10+-blue)]()
 [![Architecture](https://img.shields.io/badge/architecture-x64-blue)]()
-[![Downloads](https://img.shields.io/github/downloads/Valer100/Files-and-Folders-on-Taskbar/total)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/releases)
-[![Stars](https://img.shields.io/github/stars/Valer100/Files-and-Folders-on-Taskbar?style=flat&color=yellow)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/Valer100/Files-and-Folders-on-Taskbar)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/Valer100/Files-and-Folders-on-Taskbar)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/commits/main)
-[![Commits since latest release](https://img.shields.io/github/commits-since/Valer100/Files-and-Folders-on-Taskbar/latest)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/commits/main)
-[![License](https://img.shields.io/github/license/Valer100/Files-and-Folders-on-Taskbar)](https://github.com/Valer100/Files-and-Folders-on-Taskbar/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/d4rk-guy/Files-and-Folders-on-Taskbar/total)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/releases)
+[![Stars](https://img.shields.io/github/stars/d4rk-guy/Files-and-Folders-on-Taskbar?style=flat&color=yellow)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/d4rk-guy/Files-and-Folders-on-Taskbar)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/d4rk-guy/Files-and-Folders-on-Taskbar)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/commits/main)
+[![Commits since latest release](https://img.shields.io/github/commits-since/d4rk-guy/Files-and-Folders-on-Taskbar/latest)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/commits/main)
+[![License](https://img.shields.io/github/license/d4rk-guy/Files-and-Folders-on-Taskbar)](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/blob/main/LICENSE)
 
 A simple tool for pinning files and folders to the taskbar. It looks like this:
 
@@ -21,6 +21,9 @@ A simple tool for pinning files and folders to the taskbar. It looks like this:
 This tool can create a shortcut to a file or folder that can be pinned to your taskbar. 
 
 It can also create a separator shortcut for further organising the shortcuts on your taskbar.
+
+> [!NOTE]
+> This is a weird fork, that just adds Slovak. It's not compiled or anything, it just exists. The original is made by Valer100.
 
 ## ℹ️ How it works?
 Before creating the shortcut, you'll be asked to pick the file/folder you want to pin to the taskbar. 
@@ -66,10 +69,10 @@ Before building the installer, you must install Inno Setup Compiler on your comp
 Also, you must build the app first before building the installer. After building the app, make sure a `build` folder appears. If it doesn't and appears a `dist` folder intstead, rename that folder to `build`. After that, right-click `build_installer_x86.iss`, `build_installer_x64.iss` or `build_installer_arm64.iss` (depending on your CPU's architecture) and choose `Compile`. After the installer was built, you can find it in the same `build` folder.
 
 ## 💿 Download
-Click [here](https://github.com/Valer100/Files-and-Folders-on-Taskbar/releases/latest) to download the latest version. You can download either the portable or the installer version.
+Click [here](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/releases/latest) to download the latest version. You can download either the portable or the installer version.
 
 > [!WARNING]
 > At the moment, the binaries from Releases tab were built only for 64 bit Windows. They will not work on 32 bit Windows.
 
 ## 📜 License
-[MIT](https://github.com/Valer100/Files-and-Folders-on-Taskbar/blob/main/LICENSE)
+[MIT](https://github.com/d4rk-guy/Files-and-Folders-on-Taskbar/blob/main/LICENSE)
